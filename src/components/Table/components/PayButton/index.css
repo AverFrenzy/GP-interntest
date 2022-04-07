@@ -1,0 +1,15 @@
+.pay-button {
+    height: 20px;
+    width: 100px;
+    border-radius: 15px;
+    border: 2px solid #34686c;
+    letter-spacing: 5px;
+    background-color: #61dafb;
+    color: #34686c;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.pay-button-unactive {
+    opacity: 0.3;
+}

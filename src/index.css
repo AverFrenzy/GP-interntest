@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+button :active, :hover, :focus {
+    outline: 0;
+    outline-offset: 0;
+}
+
+.container {
+    display: flex;
+    padding: 0 16px;
+    min-height: 100vh;
+    flex-direction: column;
+    align-items: center;
+}
+
+.load-button {
+    width: 220px;
+    height: 80px;
+    background-color: #1ee399;
+    transition: .35s;
+    border-radius: 20px;
+    margin: 25px 0;
+    color: #34686c;
+    font-size: 1.5em;
+    cursor: pointer;
+}
+
+.load-button:hover {
+    background-color: #4aeeb8;
+    font-size: 1.65em;
+}

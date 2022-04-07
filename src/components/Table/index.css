@@ -1,0 +1,16 @@
+.vegan-text {
+    color: #1ee399;
+}
+
+.table {
+    width: 95%;
+    margin: 10px 0;
+    font-size: 16px;
+    border-collapse: collapse;
+    text-align: center;
+    border-color: grey;
+}
+th, td {
+    height: 30px;
+    border: 1px solid #070707;
+}
